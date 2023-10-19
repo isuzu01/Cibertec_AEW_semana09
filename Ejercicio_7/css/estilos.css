@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: chocolate;
+}
+
+#contenedor {
+    width: 95%;
+    margin: 30px auto;
+}
+header {
+    background-color: beige;
+}
+header h1 {
+    text-align: center;
+    color: chocolate;
+    padding: 10px;
+}
+header img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+nav {
+    background-color: yellow;
+}
+nav a {
+    color: red;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+main {
+    display: flex;
+}
+aside {
+    width: 25%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+aside h2 {
+    color: blue;
+    padding: 20px 0px;
+}
+ul, ol {
+    margin-left: 20px;
+}
+aside p {
+    margin: 15px;
+    text-align: justify;
+}
+aside div {
+    width: 100%;
+    text-align: center;
+}
+aside img{
+    width: 40%;
+    margin-top: 10px;
+}
+section {
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+section figure {
+    width: 50%;
+    margin: 10px 0px;
+
+}
+section figure img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+}
+section figure figcaption {
+    margin: 10px;
+    text-align: center;
+    color: green;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
+
+footer p {
+    margin-bottom: 10px;
+    color: white;
+}
